@@ -6,6 +6,9 @@ $ tar -xvf  helm-v3.12.0-linux-amd64.tar.gz
 $ sudo mv linux-amd64  /usr/local/bin
 
 $ helm version
+
+$ sudo snap install helm --classic
+
 ## Add helm repo
 
 `helm repo add grafana https://grafana.github.io/helm-charts`
