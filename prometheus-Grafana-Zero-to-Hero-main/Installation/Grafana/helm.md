@@ -1,5 +1,8 @@
 # Install using Helm
-
+$ wget https://get.helm.sh/helm-v3.12.0-linux-amd64.tar.gz
+$ tar -xvf  helm-v3.12.0-linux-amd64.tar.gz
+$ sudo mv linux-amd64  /usr/local/bin
+$ helm version
 ## Add helm repo
 
 `helm repo add grafana https://grafana.github.io/helm-charts`
